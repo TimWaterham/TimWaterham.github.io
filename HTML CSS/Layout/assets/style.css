@@ -1,0 +1,180 @@
+/*===========================Body=============================*/
+
+body { 
+
+    background: url("images/background.png") center fixed; 
+    background-size : cover;
+}
+
+/*===========================Body=============================*/
+
+/*============================================================*/
+
+/*===========================Info=============================*/
+
+div.informatie{
+
+    width: 56%;
+    height: 100%;
+    margin: 20px auto 0 auto;
+    background-color: #666666;
+    padding: 10px;
+    border-style:   solid;
+    border-color: #808080;
+}
+
+div.informatie1{
+
+    border-style: solid;
+    border-color: #000000;
+    padding: 10px;
+    margin: 50px;
+}
+
+div.informatie2{
+
+    border-style: solid;
+    border-color: #000000;
+    padding: 10px;
+    margin: 50px;
+}
+
+
+div.informatie3{
+
+    border-style: solid;
+    border-color: #000000;
+    padding: 10px;
+    margin: 50px;
+}
+
+div.informatie4{
+
+    border-style: solid;
+    border-color: #000000;
+    padding: 10px;
+    margin: 50px;
+}
+
+div.ad1{
+
+    background-color: grey;
+    width: 22%;
+}
+
+div.ad2{
+
+    background-color: grey;
+    width: 22%;
+}
+
+
+/*===========================Info=============================*/
+
+/*============================================================*/
+
+/*===========================Text=============================*/
+
+
+h1{
+
+    display: inline-flex;
+}
+
+h3{
+
+    display: inline-flex;
+    color: #FFFFFF;
+
+}
+
+img{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p{ 
+    padding : 10px;
+    max-width: 100%;
+    max-height: 100%;
+    color: #FFFFFF;
+ }
+
+
+/*===========================Text=============================*/
+
+/*============================================================*/
+
+/*===========================Menu=============================*/
+
+
+ul.menu {
+
+    overflow:hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(48, 49, 52, 0.9);
+    border-style : solid;
+    border-color: #252628;
+}
+
+
+li.menu2 {
+
+    float: left;
+}
+
+li.menu2 a, .button {
+
+    display: block;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+    color: #807b7b;
+    text-align: center;
+	padding: 14px 16px;
+    text-decoration: none;
+ }
+
+li.menu2 a:hover, .dropdown:hover .button {
+
+    background-color: #727272;
+}
+
+li.dropdown {
+
+    display: inline-block;
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #46474a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-style :solid;
+    border-color: #252628;
+}
+
+.dropdown-content a {
+    color:rgba(205,205,205, 1);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+
+	background-color: #9d1311;
+
+}
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+}
+
+
+/*===========================Menu=============================*/
